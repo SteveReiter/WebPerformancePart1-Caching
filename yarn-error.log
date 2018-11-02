@@ -1,0 +1,70 @@
+Arguments: 
+  /Users/stevereiter/.nvm/versions/node/v8.11.3/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js
+
+PATH: 
+  /Users/stevereiter/.nvm/versions/node/v8.11.3/bin:/opt/apache-maven-3.5.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND nexus.prod.aws.about.com nexus.prod.aws.about.com:80
+      at errnoException (dns.js:50:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "name": "reveal.js",
+    "version": "3.7.0",
+    "description": "The HTML Presentation Framework",
+    "homepage": "http://revealjs.com",
+    "subdomain": "revealjs",
+    "main": "js/reveal.js",
+    "scripts": {
+      "test": "grunt test",
+      "start": "grunt serve",
+      "build": "grunt"
+    },
+    "author": {
+      "name": "Hakim El Hattab",
+      "email": "hakim.elhattab@gmail.com",
+      "web": "http://hakim.se"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/hakimel/reveal.js.git"
+    },
+    "engines": {
+      "node": ">=4.0.0"
+    },
+    "devDependencies": {
+      "express": "^4.16.2",
+      "grunt": "^1.0.1",
+      "grunt-autoprefixer": "^3.0.4",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-connect": "^1.0.2",
+      "grunt-contrib-cssmin": "^2.2.1",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-contrib-qunit": "^2.0.0",
+      "grunt-contrib-uglify": "^3.3.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-sass": "^2.0.0",
+      "grunt-retire": "^1.0.7",
+      "grunt-zip": "~0.17.1",
+      "mustache": "^2.3.0",
+      "socket.io": "^1.7.3"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
